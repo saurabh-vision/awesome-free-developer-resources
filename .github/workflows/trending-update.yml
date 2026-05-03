@@ -1,0 +1,124 @@
+name: Weekly Trending Update
+
+on:
+  schedule:
+    # Every Monday at 9:00 AM UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-trending:
+    name: Update Trending Tools
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: |
+          if [ -f package.json ]; then
+            npm ci
+          else
+            echo "No package.json found, skipping npm install"
+          fi
+
+      - name: Fetch GitHub Stars for Tools
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node -e "
+          const fs = require('fs');
+          const https = require('https');
+
+          const tools = JSON.parse(fs.readFileSync('data/tools.json', 'utf8'));
+
+          async function fetchStars(owner, repo) {
+            return new Promise((resolve) => {
+              const options = {
+                hostname: 'api.github.com',
+                path: '/repos/' + owner + '/' + repo,
+                headers: {
+                  'User-Agent': 'awesome-ai-tools-database',
+                  'Authorization': 'Bearer ' + process.env.GITHUB_TOKEN
+                }
+              };
+              const req = https.get(options, (res) => {
+                let data = '';
+                res.on('data', chunk => data += chunk);
+                res.on('end', () => {
+                  try {
+                    const json = JSON.parse(data);
+                    resolve(json.stargazers_count || null);
+                  } catch {
+                    resolve(null);
+                  }
+                });
+              });
+              req.on('error', () => resolve(null));
+            });
+          }
+
+          async function updateStats() {
+            // Extract GitHub repos from URLs
+            for (const tool of tools) {
+              const match = tool.url.match(/github\.com\/([^/]+)\/([^/]+)/);
+              if (match) {
+                const [, owner, repo] = match;
+                const stars = await fetchStars(owner, repo.replace(/[#?].*$/, ''));
+                if (stars !== null) {
+                  tool.stars = stars;
+                  console.log('Updated ' + tool.name + ': ' + stars + ' stars');
+                }
+                // Rate limit: 1 request per second
+                await new Promise(r => setTimeout(r, 1000));
+              }
+            }
+
+            fs.writeFileSync('data/tools.json', JSON.stringify(tools, null, 2));
+            console.log('Stars updated successfully');
+          }
+
+          updateStats().catch(console.error);
+          "
+
+      - name: Update Stats File
+        run: |
+          node -e "
+          const fs = require('fs');
+          const tools = JSON.parse(fs.readFileSync('data/tools.json', 'utf8'));
+          const stats = JSON.parse(fs.readFileSync('data/stats.json', 'utf8'));
+
+          stats.last_updated = new Date().toISOString().split('T')[0];
+          stats.total_tools = tools.length;
+
+          // Update category breakdown
+          const breakdown = {};
+          tools.forEach(t => {
+            breakdown[t.category] = (breakdown[t.category] || 0) + 1;
+          });
+          stats.category_breakdown = breakdown;
+
+          fs.writeFileSync('data/stats.json', JSON.stringify(stats, null, 2));
+          console.log('Stats updated');
+          "
+
+      - name: Commit Updated Data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/tools.json data/stats.json
+          git diff --staged --quiet || git commit -m "chore: weekly trending update [skip ci]"
+          git push

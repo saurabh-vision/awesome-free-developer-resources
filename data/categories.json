@@ -1,0 +1,153 @@
+[
+  {
+    "id": "ai-llm",
+    "name": "AI & LLM Tools",
+    "emoji": "🤖",
+    "description": "Artificial intelligence assistants, large language models, coding assistants, and AI development frameworks",
+    "subcategories": [
+      { "id": "general-assistants", "name": "General AI Assistants" },
+      { "id": "coding-assistants", "name": "Coding Assistants" },
+      { "id": "self-hosted", "name": "Self-Hosted LLMs" },
+      { "id": "frameworks", "name": "AI Dev Frameworks" },
+      { "id": "image-creative", "name": "AI Image & Creative" },
+      { "id": "platforms", "name": "AI Platforms & Hubs" }
+    ],
+    "color": "#8B5CF6"
+  },
+  {
+    "id": "code-snippets",
+    "name": "Code Snippets & Boilerplates",
+    "emoji": "💻",
+    "description": "Ready-to-copy code snippets, starter templates, and boilerplates for common development patterns",
+    "subcategories": [
+      { "id": "javascript", "name": "JavaScript / TypeScript" },
+      { "id": "python", "name": "Python" },
+      { "id": "css", "name": "CSS" },
+      { "id": "sql", "name": "SQL" },
+      { "id": "bash", "name": "Bash / Shell" },
+      { "id": "boilerplates", "name": "Full-Stack Boilerplates" }
+    ],
+    "color": "#3B82F6"
+  },
+  {
+    "id": "design",
+    "name": "Design Tools",
+    "emoji": "🎨",
+    "description": "UI/UX design tools, free asset libraries, color tools, typography, and component libraries",
+    "subcategories": [
+      { "id": "ui-design", "name": "UI Design Tools" },
+      { "id": "free-assets", "name": "Free Assets" },
+      { "id": "colors-typography", "name": "Colors & Typography" },
+      { "id": "component-libraries", "name": "UI Component Libraries" }
+    ],
+    "color": "#EC4899"
+  },
+  {
+    "id": "hosting",
+    "name": "Hosting & Deployment",
+    "emoji": "🚀",
+    "description": "Cloud hosting platforms, deployment services, CDN, and infrastructure tools",
+    "subcategories": [
+      { "id": "frontend-hosting", "name": "Frontend Hosting" },
+      { "id": "full-stack-hosting", "name": "Full-Stack Hosting" },
+      { "id": "vps", "name": "VPS & Servers" },
+      { "id": "cdn-security", "name": "CDN & Security" }
+    ],
+    "color": "#F59E0B"
+  },
+  {
+    "id": "databases",
+    "name": "Databases",
+    "emoji": "📊",
+    "description": "Managed databases, database services, ORMs, and database GUI tools",
+    "subcategories": [
+      { "id": "postgresql", "name": "PostgreSQL" },
+      { "id": "mysql", "name": "MySQL" },
+      { "id": "nosql", "name": "NoSQL" },
+      { "id": "redis", "name": "Redis / Cache" },
+      { "id": "sqlite", "name": "SQLite / Edge DB" },
+      { "id": "orm", "name": "ORMs & Query Builders" }
+    ],
+    "color": "#10B981"
+  },
+  {
+    "id": "devops",
+    "name": "DevOps Tools",
+    "emoji": "🔧",
+    "description": "Containerization, CI/CD pipelines, monitoring, observability, and infrastructure tools",
+    "subcategories": [
+      { "id": "containerization", "name": "Containerization" },
+      { "id": "ci-cd", "name": "CI/CD" },
+      { "id": "monitoring", "name": "Monitoring & Observability" },
+      { "id": "infrastructure", "name": "Infrastructure as Code" }
+    ],
+    "color": "#6366F1"
+  },
+  {
+    "id": "learning",
+    "name": "Learning Resources",
+    "emoji": "📚",
+    "description": "Online courses, roadmaps, tutorials, documentation, and practice platforms",
+    "subcategories": [
+      { "id": "roadmaps", "name": "Roadmaps & Curricula" },
+      { "id": "courses", "name": "Online Courses" },
+      { "id": "practice", "name": "Practice & DSA" },
+      { "id": "references", "name": "References & Docs" }
+    ],
+    "color": "#EF4444"
+  },
+  {
+    "id": "dev-tools",
+    "name": "Developer Tools",
+    "emoji": "🛠️",
+    "description": "IDEs, code editors, API testing tools, CLI utilities, and browser extensions for developers",
+    "subcategories": [
+      { "id": "editors", "name": "IDEs & Editors" },
+      { "id": "api-testing", "name": "API Testing" },
+      { "id": "cli-tools", "name": "CLI & Terminal" },
+      { "id": "browser-extensions", "name": "Browser Extensions" },
+      { "id": "utilities", "name": "Developer Utilities" },
+      { "id": "references", "name": "Documentation & References" }
+    ],
+    "color": "#8B5CF6"
+  },
+  {
+    "id": "apis",
+    "name": "APIs & Integration Tools",
+    "emoji": "💬",
+    "description": "Public APIs, AI APIs, integration platforms, and webhook tools",
+    "subcategories": [
+      { "id": "public-apis", "name": "Free Public APIs" },
+      { "id": "ai-apis", "name": "AI APIs" },
+      { "id": "integration-platforms", "name": "Integration Platforms" },
+      { "id": "developer-utilities", "name": "Developer Utility APIs" }
+    ],
+    "color": "#06B6D4"
+  },
+  {
+    "id": "productivity",
+    "name": "Productivity & Automation",
+    "emoji": "🎯",
+    "description": "Note-taking, project management, automation tools, and developer productivity enhancers",
+    "subcategories": [
+      { "id": "note-taking", "name": "Note-Taking & Knowledge" },
+      { "id": "project-management", "name": "Project Management" },
+      { "id": "automation", "name": "Automation Tools" },
+      { "id": "dev-productivity", "name": "Developer Productivity" }
+    ],
+    "color": "#F97316"
+  },
+  {
+    "id": "security",
+    "name": "Security & Authentication",
+    "emoji": "🔐",
+    "description": "Authentication services, security scanning tools, secrets management, and SSL/domain security",
+    "subcategories": [
+      { "id": "authentication", "name": "Authentication Services" },
+      { "id": "vulnerability-scanning", "name": "Security Scanning" },
+      { "id": "secrets-management", "name": "Secrets Management" },
+      { "id": "ssl-domain", "name": "SSL & Domain Security" }
+    ],
+    "color": "#DC2626"
+  }
+]

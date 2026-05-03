@@ -1,0 +1,39 @@
+{
+  "last_updated": "2024-01-01",
+  "total_tools": 45,
+  "total_categories": 11,
+  "total_contributors": 1,
+  "monthly_stats": [
+    {
+      "month": "2024-01",
+      "tools_added": 45,
+      "contributors": 1,
+      "stars": 0,
+      "forks": 0,
+      "affiliate_clicks": 0,
+      "affiliate_conversions": 0,
+      "revenue_usd": 0
+    }
+  ],
+  "category_breakdown": {
+    "ai-llm": 12,
+    "hosting": 6,
+    "databases": 8,
+    "devops": 4,
+    "design": 4,
+    "dev-tools": 6,
+    "learning": 3,
+    "productivity": 5,
+    "security": 3,
+    "apis": 3,
+    "code-snippets": 1
+  },
+  "top_tools_by_clicks": [],
+  "trending_this_week": [
+    "Claude",
+    "Cursor",
+    "Vercel",
+    "Supabase",
+    "GitHub Copilot"
+  ]
+}
