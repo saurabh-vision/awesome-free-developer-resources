@@ -12,7 +12,7 @@
 **The #1 open-source database of AI tools, developer resources, and productivity boosters.**
 *Discover, compare, and use 100+ tools — curated by developers, for developers.*
 
-[🚀 Browse Tools](#-table-of-contents) • [➕ Add a Tool](https://github.com/saurabh-vision/awesome-ai-tools-database/discussions) • [📊 Compare Tools](#-tool-comparisons) • [💰 Affiliate Info](MONETIZATION.md)
+[🚀 Browse Tools](#-table-of-contents) • [➕ Add a Tool](https://github.com/saurabh-vision/awesome-ai-tools-database/discussions) • [📊 Compare Tools](#-tool-comparisons)
 
 </div>
 
@@ -28,8 +28,6 @@
 - 🚀 **Easy to Contribute** — Submit via GitHub Discussions (no coding needed!)
 - 🏆 **Editor's Picks** — Best-in-class tools highlighted
 - 🔄 **Auto-Maintained** — Dead links checked daily, descriptions updated
-
-> 💡 **Affiliate Disclosure:** Some links are affiliate links. This helps fund maintenance. See [MONETIZATION.md](MONETIZATION.md) for full transparency.
 
 ---
 
@@ -86,13 +84,13 @@
 
 ### 🧠 General AI Assistants
 
-| Tool | Free Tier | Best For | Affiliate |
-|------|-----------|----------|-----------|
-| [ChatGPT](https://chat.openai.com) | ✅ GPT-3.5 free | General tasks, coding, writing | [Try ChatGPT Plus](https://chat.openai.com) |
-| [Claude](https://claude.ai) | ✅ Free tier | Long context, analysis, coding | [Try Claude Pro](https://claude.ai) |
-| [Google Gemini](https://gemini.google.com) | ✅ Free | Multimodal AI, Google integration | [Try Gemini Advanced](https://gemini.google.com) |
-| [Perplexity AI](https://perplexity.ai) | ✅ Free | Research with citations | [Try Pro](https://perplexity.ai) |
-| [Mistral](https://mistral.ai) | ✅ Free tier | Fast, open models | [Mistral API](https://mistral.ai) |
+| Tool | Free Tier | Best For |
+|------|-----------|----------|
+| [ChatGPT](https://chat.openai.com) | ✅ GPT-3.5 free | General tasks, coding, writing |
+| [Claude](https://claude.ai) | ✅ Free tier | Long context, analysis, coding |
+| [Google Gemini](https://gemini.google.com) | ✅ Free | Multimodal AI, Google integration |
+| [Perplexity AI](https://perplexity.ai) | ✅ Free | Research with citations |
+| [Mistral](https://mistral.ai) | ✅ Free tier | Fast, open models |
 
 ### 💻 Coding Assistants
 
@@ -372,16 +370,16 @@ SET url = EXCLUDED.url, updated_at = NOW();
 
 ### ☁️ Free Hosting Platforms
 
-| Platform | Free Tier | Best For | Affiliate |
-|----------|-----------|----------|-----------|
-| [Vercel](https://vercel.com) | Unlimited projects | Next.js, React, frontend | [Deploy on Vercel](https://vercel.com) |
-| [Netlify](https://netlify.com) | 100GB bandwidth/mo | Static sites, JAMstack | [Try Netlify](https://netlify.com) |
-| [Railway](https://railway.app) | $5 credit/mo | Node, Python, databases | [Try Railway](https://railway.app) |
-| [Render](https://render.com) | 750 hrs/mo | Full-stack apps | [Try Render](https://render.com) |
-| [Fly.io](https://fly.io) | 3 shared VMs free | Dockerized apps | [Try Fly.io](https://fly.io) |
-| [GitHub Pages](https://pages.github.com) | Unlimited static | Docs, portfolios | ✅ Free |
-| [Cloudflare Pages](https://pages.cloudflare.com) | Unlimited requests | Static + edge functions | ✅ Free |
-| [Deno Deploy](https://deno.com/deploy) | 100k req/day | Edge TypeScript | ✅ Free |
+| Platform | Free Tier | Best For |
+|----------|-----------|----------|
+| [Vercel](https://vercel.com) | Unlimited projects | Next.js, React, frontend |
+| [Netlify](https://netlify.com) | 100GB bandwidth/mo | Static sites, JAMstack |
+| [Railway](https://railway.app) | $5 credit/mo | Node, Python, databases |
+| [Render](https://render.com) | 750 hrs/mo | Full-stack apps |
+| [Fly.io](https://fly.io) | 3 shared VMs free | Dockerized apps |
+| [GitHub Pages](https://pages.github.com) | Unlimited static | Docs, portfolios |
+| [Cloudflare Pages](https://pages.cloudflare.com) | Unlimited requests | Static + edge functions |
+| [Deno Deploy](https://deno.com/deploy) | 100k req/day | Edge TypeScript |
 
 ### 🔧 Self-Hosted / VPS
 
@@ -398,16 +396,16 @@ SET url = EXCLUDED.url, updated_at = NOW();
 
 ### ☁️ Free Database Services
 
-| DB | Free Tier | Type | Affiliate |
-|----|-----------|------|-----------|
-| [Supabase](https://supabase.com) | 500MB + auth + storage | PostgreSQL | [Try Supabase](https://supabase.com) |
-| [Neon](https://neon.tech) | 512MB serverless | PostgreSQL | [Try Neon](https://neon.tech) |
-| [PlanetScale](https://planetscale.com) | 5GB | MySQL-compatible | [Try PlanetScale](https://planetscale.com) |
-| [MongoDB Atlas](https://mongodb.com/atlas) | 512MB | NoSQL | [Try Atlas](https://mongodb.com/atlas) |
-| [Turso](https://turso.tech) | 9GB storage | SQLite/libSQL (edge) | [Try Turso](https://turso.tech) |
-| [Redis Cloud](https://redis.io/cloud) | 30MB | Redis | ✅ Free tier |
-| [Upstash](https://upstash.com) | 10k req/day | Redis + Kafka | [Try Upstash](https://upstash.com) |
-| [FaunaDB](https://fauna.com) | 100k reads/day | Serverless GraphQL | ✅ Free tier |
+| DB | Free Tier | Type |
+|----|-----------|------|
+| [Supabase](https://supabase.com) | 500MB + auth + storage | PostgreSQL |
+| [Neon](https://neon.tech) | 512MB serverless | PostgreSQL |
+| [PlanetScale](https://planetscale.com) | 5GB | MySQL-compatible |
+| [MongoDB Atlas](https://mongodb.com/atlas) | 512MB | NoSQL |
+| [Turso](https://turso.tech) | 9GB storage | SQLite/libSQL (edge) |
+| [Redis Cloud](https://redis.io/cloud) | 30MB | Redis |
+| [Upstash](https://upstash.com) | 10k req/day | Redis + Kafka |
+| [FaunaDB](https://fauna.com) | 100k reads/day | Serverless GraphQL |
 
 ### 🛠️ Database Tools
 
@@ -481,12 +479,12 @@ SET url = EXCLUDED.url, updated_at = NOW();
 
 ### 🎓 Paid (Worth It)
 
-| Platform | Affiliate | Best For |
-|----------|-----------|----------|
-| [Udemy](https://udemy.com) | [Browse Courses](https://udemy.com) | Deep-dive courses, frequent sales |
-| [Coursera](https://coursera.org) | [Try Coursera Plus](https://coursera.org) | University-backed certifications |
-| [Pluralsight](https://pluralsight.com) | [Try Free](https://pluralsight.com) | Tech professional courses |
-| [Frontend Masters](https://frontendmasters.com) | [Try Free](https://frontendmasters.com) | Expert frontend/fullstack courses |
+| Platform | Best For |
+|----------|----------|
+| [Udemy](https://udemy.com) | Deep-dive courses, frequent sales |
+| [Coursera](https://coursera.org) | University-backed certifications |
+| [Pluralsight](https://pluralsight.com) | Tech professional courses |
+| [Frontend Masters](https://frontendmasters.com) | Expert frontend/fullstack courses |
 
 ---
 
@@ -731,7 +729,7 @@ We love contributions! There are **4 easy ways** to contribute:
 2. Add your tool to the correct section in `README.md` and `data/tools.json`
 3. Use this format:
 ```markdown
-| [Tool Name](https://tool.com) | ✅/❌ Free | Best For | [Affiliate](link) |
+| [Tool Name](https://tool.com) | ✅/❌ Free | Best For |
 ```
 4. Submit PR with title: `Add [Tool Name] to [Category]`
 

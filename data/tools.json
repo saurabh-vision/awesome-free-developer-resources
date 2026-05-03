@@ -8,11 +8,20 @@
     "free_tier": true,
     "free_tier_details": "GPT-3.5 free, GPT-4 with ChatGPT Plus ($20/mo)",
     "best_for": "General tasks, coding help, writing, analysis",
-    "use_cases": ["Code generation", "Writing assistance", "Data analysis", "Learning concepts"],
-    "affiliate_link": "https://chat.openai.com",
+    "use_cases": [
+      "Code generation",
+      "Writing assistance",
+      "Data analysis",
+      "Learning concepts"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["ai", "llm", "chatbot", "openai"]
+    "tags": [
+      "ai",
+      "llm",
+      "chatbot",
+      "openai"
+    ]
   },
   {
     "name": "Claude",
@@ -23,11 +32,20 @@
     "free_tier": true,
     "free_tier_details": "Free tier with Claude Sonnet, Claude Pro at $20/mo",
     "best_for": "Long documents, code review, detailed analysis",
-    "use_cases": ["Document analysis", "Code review", "Research", "Writing"],
-    "affiliate_link": "https://claude.ai",
+    "use_cases": [
+      "Document analysis",
+      "Code review",
+      "Research",
+      "Writing"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["ai", "llm", "chatbot", "anthropic"]
+    "tags": [
+      "ai",
+      "llm",
+      "chatbot",
+      "anthropic"
+    ]
   },
   {
     "name": "Google Gemini",
@@ -38,11 +56,20 @@
     "free_tier": true,
     "free_tier_details": "Free tier available, Gemini Advanced with Google One",
     "best_for": "Google Workspace integration, multimodal tasks",
-    "use_cases": ["Image analysis", "Code generation", "Google Docs integration", "Research"],
-    "affiliate_link": "https://gemini.google.com",
+    "use_cases": [
+      "Image analysis",
+      "Code generation",
+      "Google Docs integration",
+      "Research"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["ai", "llm", "chatbot", "google"]
+    "tags": [
+      "ai",
+      "llm",
+      "chatbot",
+      "google"
+    ]
   },
   {
     "name": "GitHub Copilot",
@@ -53,11 +80,20 @@
     "free_tier": true,
     "free_tier_details": "Free for all GitHub users (2000 completions/month), Copilot Pro at $10/mo",
     "best_for": "In-editor code completions and suggestions",
-    "use_cases": ["Code completion", "Documentation generation", "Test writing", "Code explanation"],
-    "affiliate_link": "https://github.com/features/copilot",
+    "use_cases": [
+      "Code completion",
+      "Documentation generation",
+      "Test writing",
+      "Code explanation"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["ai", "coding", "github", "copilot"]
+    "tags": [
+      "ai",
+      "coding",
+      "github",
+      "copilot"
+    ]
   },
   {
     "name": "Cursor",
@@ -68,11 +104,20 @@
     "free_tier": true,
     "free_tier_details": "Hobby plan free, Pro at $20/mo",
     "best_for": "AI-assisted coding with full codebase context",
-    "use_cases": ["Code generation", "Codebase Q&A", "Debugging", "Refactoring"],
-    "affiliate_link": "https://cursor.com",
+    "use_cases": [
+      "Code generation",
+      "Codebase Q&A",
+      "Debugging",
+      "Refactoring"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["ai", "coding", "editor", "vscode"]
+    "tags": [
+      "ai",
+      "coding",
+      "editor",
+      "vscode"
+    ]
   },
   {
     "name": "Ollama",
@@ -83,11 +128,20 @@
     "free_tier": true,
     "free_tier_details": "Completely free and open source",
     "best_for": "Running LLMs locally for privacy or offline use",
-    "use_cases": ["Local AI", "Privacy-first AI", "Offline AI", "Prototyping"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Local AI",
+      "Privacy-first AI",
+      "Offline AI",
+      "Prototyping"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["ai", "local", "open-source", "llm"]
+    "tags": [
+      "ai",
+      "local",
+      "open-source",
+      "llm"
+    ]
   },
   {
     "name": "Vercel",
@@ -98,11 +152,20 @@
     "free_tier": true,
     "free_tier_details": "Hobby plan: unlimited personal projects, 100GB bandwidth/mo",
     "best_for": "Next.js, React, and frontend deployment",
-    "use_cases": ["Next.js deployment", "Static site hosting", "Serverless functions", "Preview deployments"],
-    "affiliate_link": "https://vercel.com",
+    "use_cases": [
+      "Next.js deployment",
+      "Static site hosting",
+      "Serverless functions",
+      "Preview deployments"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["hosting", "deployment", "nextjs", "frontend"]
+    "tags": [
+      "hosting",
+      "deployment",
+      "nextjs",
+      "frontend"
+    ]
   },
   {
     "name": "Netlify",
@@ -113,11 +176,20 @@
     "free_tier": true,
     "free_tier_details": "Free: 100GB bandwidth/mo, 300 build minutes/mo",
     "best_for": "Static sites, JAMstack applications",
-    "use_cases": ["Static site hosting", "JAMstack apps", "Form handling", "A/B testing"],
-    "affiliate_link": "https://netlify.com",
+    "use_cases": [
+      "Static site hosting",
+      "JAMstack apps",
+      "Form handling",
+      "A/B testing"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["hosting", "jamstack", "static", "serverless"]
+    "tags": [
+      "hosting",
+      "jamstack",
+      "static",
+      "serverless"
+    ]
   },
   {
     "name": "Railway",
@@ -128,11 +200,20 @@
     "free_tier": true,
     "free_tier_details": "$5 free credit/month",
     "best_for": "Full-stack apps, databases, and backend services",
-    "use_cases": ["Node.js deployment", "Database hosting", "Python apps", "Docker containers"],
-    "affiliate_link": "https://railway.app",
+    "use_cases": [
+      "Node.js deployment",
+      "Database hosting",
+      "Python apps",
+      "Docker containers"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["hosting", "backend", "database", "docker"]
+    "tags": [
+      "hosting",
+      "backend",
+      "database",
+      "docker"
+    ]
   },
   {
     "name": "Supabase",
@@ -143,11 +224,21 @@
     "free_tier": true,
     "free_tier_details": "Free: 500MB database, auth, 1GB storage, 2GB bandwidth",
     "best_for": "Full-stack apps needing auth + database + storage",
-    "use_cases": ["User authentication", "Real-time data", "File storage", "REST/GraphQL APIs"],
-    "affiliate_link": "https://supabase.com",
+    "use_cases": [
+      "User authentication",
+      "Real-time data",
+      "File storage",
+      "REST/GraphQL APIs"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["database", "postgres", "auth", "open-source", "firebase-alternative"]
+    "tags": [
+      "database",
+      "postgres",
+      "auth",
+      "open-source",
+      "firebase-alternative"
+    ]
   },
   {
     "name": "Neon",
@@ -158,11 +249,18 @@
     "free_tier": true,
     "free_tier_details": "Free: 512MB storage, 1 project",
     "best_for": "Serverless apps needing PostgreSQL",
-    "use_cases": ["Serverless apps", "Database branching", "Preview environments"],
-    "affiliate_link": "https://neon.tech",
+    "use_cases": [
+      "Serverless apps",
+      "Database branching",
+      "Preview environments"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["database", "postgres", "serverless"]
+    "tags": [
+      "database",
+      "postgres",
+      "serverless"
+    ]
   },
   {
     "name": "PlanetScale",
@@ -173,11 +271,19 @@
     "free_tier": true,
     "free_tier_details": "Free: 5GB storage, 1 billion row reads/month",
     "best_for": "High-scale MySQL applications",
-    "use_cases": ["MySQL apps", "Database branching", "Zero-downtime migrations"],
-    "affiliate_link": "https://planetscale.com",
+    "use_cases": [
+      "MySQL apps",
+      "Database branching",
+      "Zero-downtime migrations"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["database", "mysql", "serverless", "vitess"]
+    "tags": [
+      "database",
+      "mysql",
+      "serverless",
+      "vitess"
+    ]
   },
   {
     "name": "MongoDB Atlas",
@@ -188,11 +294,20 @@
     "free_tier": true,
     "free_tier_details": "Free: 512MB storage, M0 shared cluster",
     "best_for": "Document-based applications, flexible schemas",
-    "use_cases": ["Document storage", "Real-time analytics", "Search", "Mobile apps"],
-    "affiliate_link": "https://mongodb.com/atlas",
+    "use_cases": [
+      "Document storage",
+      "Real-time analytics",
+      "Search",
+      "Mobile apps"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["database", "nosql", "mongodb", "document"]
+    "tags": [
+      "database",
+      "nosql",
+      "mongodb",
+      "document"
+    ]
   },
   {
     "name": "Docker",
@@ -203,11 +318,20 @@
     "free_tier": true,
     "free_tier_details": "Docker Desktop free for personal use and small teams",
     "best_for": "Containerizing applications for consistent environments",
-    "use_cases": ["Application containerization", "Local development", "CI/CD pipelines", "Microservices"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Application containerization",
+      "Local development",
+      "CI/CD pipelines",
+      "Microservices"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["devops", "containers", "docker", "infrastructure"]
+    "tags": [
+      "devops",
+      "containers",
+      "docker",
+      "infrastructure"
+    ]
   },
   {
     "name": "GitHub Actions",
@@ -218,11 +342,20 @@
     "free_tier": true,
     "free_tier_details": "Free: 2000 minutes/month for public repos, unlimited for public OSS",
     "best_for": "CI/CD for GitHub-hosted projects",
-    "use_cases": ["Automated testing", "Deployment pipelines", "Code quality checks", "Scheduled tasks"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Automated testing",
+      "Deployment pipelines",
+      "Code quality checks",
+      "Scheduled tasks"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["devops", "ci-cd", "github", "automation"]
+    "tags": [
+      "devops",
+      "ci-cd",
+      "github",
+      "automation"
+    ]
   },
   {
     "name": "Figma",
@@ -233,11 +366,21 @@
     "free_tier": true,
     "free_tier_details": "Free: 3 projects, unlimited drafts, community access",
     "best_for": "UI/UX design, prototyping, design systems",
-    "use_cases": ["UI design", "Prototyping", "Design handoff", "Component libraries"],
-    "affiliate_link": "https://figma.com",
+    "use_cases": [
+      "UI design",
+      "Prototyping",
+      "Design handoff",
+      "Component libraries"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["design", "ui", "ux", "prototyping", "collaboration"]
+    "tags": [
+      "design",
+      "ui",
+      "ux",
+      "prototyping",
+      "collaboration"
+    ]
   },
   {
     "name": "shadcn/ui",
@@ -248,11 +391,20 @@
     "free_tier": true,
     "free_tier_details": "Completely free and open source",
     "best_for": "React/Next.js component libraries",
-    "use_cases": ["UI components", "Design systems", "Rapid prototyping"],
-    "affiliate_link": null,
+    "use_cases": [
+      "UI components",
+      "Design systems",
+      "Rapid prototyping"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["design", "react", "tailwind", "components", "open-source"]
+    "tags": [
+      "design",
+      "react",
+      "tailwind",
+      "components",
+      "open-source"
+    ]
   },
   {
     "name": "Postman",
@@ -263,11 +415,20 @@
     "free_tier": true,
     "free_tier_details": "Free: unlimited API calls, 3 users per workspace",
     "best_for": "API development, testing, and team collaboration",
-    "use_cases": ["API testing", "API documentation", "Mock servers", "Automated testing"],
-    "affiliate_link": "https://postman.com",
+    "use_cases": [
+      "API testing",
+      "API documentation",
+      "Mock servers",
+      "Automated testing"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["api", "testing", "rest", "graphql"]
+    "tags": [
+      "api",
+      "testing",
+      "rest",
+      "graphql"
+    ]
   },
   {
     "name": "Hoppscotch",
@@ -278,11 +439,20 @@
     "free_tier": true,
     "free_tier_details": "Completely free and open source",
     "best_for": "Quick API testing without installing anything",
-    "use_cases": ["REST API testing", "GraphQL", "WebSocket testing", "API docs"],
-    "affiliate_link": null,
+    "use_cases": [
+      "REST API testing",
+      "GraphQL",
+      "WebSocket testing",
+      "API docs"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["api", "testing", "open-source", "web-based"]
+    "tags": [
+      "api",
+      "testing",
+      "open-source",
+      "web-based"
+    ]
   },
   {
     "name": "Bruno",
@@ -293,11 +463,20 @@
     "free_tier": true,
     "free_tier_details": "Completely free and open source",
     "best_for": "Teams wanting git-based API collections",
-    "use_cases": ["Offline API testing", "Version-controlled collections", "Team collaboration"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Offline API testing",
+      "Version-controlled collections",
+      "Team collaboration"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["api", "testing", "open-source", "offline", "git"]
+    "tags": [
+      "api",
+      "testing",
+      "open-source",
+      "offline",
+      "git"
+    ]
   },
   {
     "name": "VS Code",
@@ -308,11 +487,20 @@
     "free_tier": true,
     "free_tier_details": "Completely free and open source",
     "best_for": "General-purpose code editing",
-    "use_cases": ["Code editing", "Debugging", "Git integration", "Extensions ecosystem"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Code editing",
+      "Debugging",
+      "Git integration",
+      "Extensions ecosystem"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["editor", "vscode", "microsoft", "open-source"]
+    "tags": [
+      "editor",
+      "vscode",
+      "microsoft",
+      "open-source"
+    ]
   },
   {
     "name": "LangChain",
@@ -323,11 +511,21 @@
     "free_tier": true,
     "free_tier_details": "Open source framework, free to use",
     "best_for": "Building LLM-powered applications",
-    "use_cases": ["RAG applications", "AI agents", "Chatbots", "LLM pipelines"],
-    "affiliate_link": null,
+    "use_cases": [
+      "RAG applications",
+      "AI agents",
+      "Chatbots",
+      "LLM pipelines"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["ai", "llm", "framework", "open-source", "python"]
+    "tags": [
+      "ai",
+      "llm",
+      "framework",
+      "open-source",
+      "python"
+    ]
   },
   {
     "name": "Sentry",
@@ -338,11 +536,20 @@
     "free_tier": true,
     "free_tier_details": "Free: 5,000 errors/month, 10K performance units",
     "best_for": "Error tracking and debugging in production",
-    "use_cases": ["Error tracking", "Performance monitoring", "Release tracking", "Alerting"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Error tracking",
+      "Performance monitoring",
+      "Release tracking",
+      "Alerting"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["monitoring", "error-tracking", "debugging", "performance"]
+    "tags": [
+      "monitoring",
+      "error-tracking",
+      "debugging",
+      "performance"
+    ]
   },
   {
     "name": "Clerk",
@@ -353,11 +560,20 @@
     "free_tier": true,
     "free_tier_details": "Free: 10,000 MAU",
     "best_for": "Authentication in Next.js/React apps",
-    "use_cases": ["User authentication", "Social login", "MFA", "User management"],
-    "affiliate_link": "https://clerk.com",
+    "use_cases": [
+      "User authentication",
+      "Social login",
+      "MFA",
+      "User management"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["auth", "nextjs", "react", "security"]
+    "tags": [
+      "auth",
+      "nextjs",
+      "react",
+      "security"
+    ]
   },
   {
     "name": "Auth0",
@@ -368,11 +584,20 @@
     "free_tier": true,
     "free_tier_details": "Free: 7,500 MAU, unlimited social connections",
     "best_for": "Enterprise-grade authentication",
-    "use_cases": ["SSO", "Social login", "Machine-to-machine auth", "RBAC"],
-    "affiliate_link": "https://auth0.com",
+    "use_cases": [
+      "SSO",
+      "Social login",
+      "Machine-to-machine auth",
+      "RBAC"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["auth", "security", "sso", "enterprise"]
+    "tags": [
+      "auth",
+      "security",
+      "sso",
+      "enterprise"
+    ]
   },
   {
     "name": "roadmap.sh",
@@ -383,11 +608,19 @@
     "free_tier": true,
     "free_tier_details": "Completely free",
     "best_for": "Planning your learning journey",
-    "use_cases": ["Learning path planning", "Skill gap identification", "Career progression"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Learning path planning",
+      "Skill gap identification",
+      "Career progression"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["learning", "roadmap", "career", "free"]
+    "tags": [
+      "learning",
+      "roadmap",
+      "career",
+      "free"
+    ]
   },
   {
     "name": "freeCodeCamp",
@@ -398,11 +631,20 @@
     "free_tier": true,
     "free_tier_details": "Completely free forever",
     "best_for": "Beginners learning to code",
-    "use_cases": ["Web development basics", "JavaScript", "Data structures", "Certifications"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Web development basics",
+      "JavaScript",
+      "Data structures",
+      "Certifications"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["learning", "free", "curriculum", "certification"]
+    "tags": [
+      "learning",
+      "free",
+      "curriculum",
+      "certification"
+    ]
   },
   {
     "name": "Udemy",
@@ -413,11 +655,19 @@
     "free_tier": false,
     "free_tier_details": "Paid only, courses often on sale for $10-15",
     "best_for": "Deep-dive learning on specific topics",
-    "use_cases": ["Structured learning", "Certification prep", "Technology courses"],
-    "affiliate_link": "https://udemy.com",
+    "use_cases": [
+      "Structured learning",
+      "Certification prep",
+      "Technology courses"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["learning", "paid", "courses", "certification"]
+    "tags": [
+      "learning",
+      "paid",
+      "courses",
+      "certification"
+    ]
   },
   {
     "name": "Notion",
@@ -428,11 +678,20 @@
     "free_tier": true,
     "free_tier_details": "Free: unlimited pages for personal use",
     "best_for": "Personal knowledge management and documentation",
-    "use_cases": ["Note-taking", "Documentation", "Project management", "Team wikis"],
-    "affiliate_link": "https://notion.so",
+    "use_cases": [
+      "Note-taking",
+      "Documentation",
+      "Project management",
+      "Team wikis"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["productivity", "notes", "documentation", "project-management"]
+    "tags": [
+      "productivity",
+      "notes",
+      "documentation",
+      "project-management"
+    ]
   },
   {
     "name": "n8n",
@@ -443,11 +702,20 @@
     "free_tier": true,
     "free_tier_details": "Free self-hosted, cloud free trial",
     "best_for": "Developer-friendly automation",
-    "use_cases": ["Workflow automation", "API integrations", "Data pipelines", "Notifications"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Workflow automation",
+      "API integrations",
+      "Data pipelines",
+      "Notifications"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["automation", "open-source", "workflow", "integration"]
+    "tags": [
+      "automation",
+      "open-source",
+      "workflow",
+      "integration"
+    ]
   },
   {
     "name": "Perplexity AI",
@@ -458,11 +726,20 @@
     "free_tier": true,
     "free_tier_details": "Free with daily limits, Pro at $20/mo",
     "best_for": "Research with real-time information and citations",
-    "use_cases": ["Research", "Fact-checking", "Technical questions", "Current events"],
-    "affiliate_link": "https://perplexity.ai",
+    "use_cases": [
+      "Research",
+      "Fact-checking",
+      "Technical questions",
+      "Current events"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["ai", "search", "research", "citations"]
+    "tags": [
+      "ai",
+      "search",
+      "research",
+      "citations"
+    ]
   },
   {
     "name": "Groq",
@@ -473,11 +750,20 @@
     "free_tier": true,
     "free_tier_details": "Free tier with rate limits",
     "best_for": "Fast LLM inference for production apps",
-    "use_cases": ["Fast AI responses", "Real-time AI apps", "Cost-effective inference"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Fast AI responses",
+      "Real-time AI apps",
+      "Cost-effective inference"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["api", "ai", "llm", "fast", "free"]
+    "tags": [
+      "api",
+      "ai",
+      "llm",
+      "fast",
+      "free"
+    ]
   },
   {
     "name": "Hugging Face",
@@ -488,11 +774,21 @@
     "free_tier": true,
     "free_tier_details": "Free model hosting, inference API with limits",
     "best_for": "Discovering and using open-source AI models",
-    "use_cases": ["Model hosting", "Model inference", "Datasets", "Spaces for demos"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Model hosting",
+      "Model inference",
+      "Datasets",
+      "Spaces for demos"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["ai", "ml", "models", "open-source", "huggingface"]
+    "tags": [
+      "ai",
+      "ml",
+      "models",
+      "open-source",
+      "huggingface"
+    ]
   },
   {
     "name": "Upstash",
@@ -503,11 +799,20 @@
     "free_tier": true,
     "free_tier_details": "Free: 10,000 requests/day, 256MB",
     "best_for": "Serverless caching and rate limiting",
-    "use_cases": ["Caching", "Rate limiting", "Session storage", "Pub/Sub"],
-    "affiliate_link": "https://upstash.com",
+    "use_cases": [
+      "Caching",
+      "Rate limiting",
+      "Session storage",
+      "Pub/Sub"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["database", "redis", "serverless", "edge"]
+    "tags": [
+      "database",
+      "redis",
+      "serverless",
+      "edge"
+    ]
   },
   {
     "name": "Turso",
@@ -518,11 +823,19 @@
     "free_tier": true,
     "free_tier_details": "Free: 9GB storage, 500 databases",
     "best_for": "Edge-first applications needing SQLite",
-    "use_cases": ["Edge apps", "Multi-tenant databases", "SQLite at scale"],
-    "affiliate_link": "https://turso.tech",
+    "use_cases": [
+      "Edge apps",
+      "Multi-tenant databases",
+      "SQLite at scale"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["database", "sqlite", "edge", "distributed"]
+    "tags": [
+      "database",
+      "sqlite",
+      "edge",
+      "distributed"
+    ]
   },
   {
     "name": "Prisma",
@@ -533,11 +846,21 @@
     "free_tier": true,
     "free_tier_details": "Open source and free",
     "best_for": "Type-safe database access in Node.js",
-    "use_cases": ["Database queries", "Schema migrations", "Type generation", "ORM"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Database queries",
+      "Schema migrations",
+      "Type generation",
+      "ORM"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["orm", "database", "typescript", "nodejs", "open-source"]
+    "tags": [
+      "orm",
+      "database",
+      "typescript",
+      "nodejs",
+      "open-source"
+    ]
   },
   {
     "name": "Cloudflare",
@@ -548,11 +871,22 @@
     "free_tier": true,
     "free_tier_details": "Free: unlimited bandwidth CDN, DNS, DDoS protection",
     "best_for": "CDN, DNS, security, and edge functions",
-    "use_cases": ["CDN", "DDoS protection", "DNS management", "Edge workers", "SSL"],
-    "affiliate_link": null,
+    "use_cases": [
+      "CDN",
+      "DDoS protection",
+      "DNS management",
+      "Edge workers",
+      "SSL"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["cdn", "security", "dns", "edge", "hosting"]
+    "tags": [
+      "cdn",
+      "security",
+      "dns",
+      "edge",
+      "hosting"
+    ]
   },
   {
     "name": "Linear",
@@ -563,11 +897,20 @@
     "free_tier": true,
     "free_tier_details": "Free for small teams (up to 5 members)",
     "best_for": "Engineering teams wanting fast project management",
-    "use_cases": ["Issue tracking", "Sprint planning", "Roadmapping", "GitHub integration"],
-    "affiliate_link": "https://linear.app",
+    "use_cases": [
+      "Issue tracking",
+      "Sprint planning",
+      "Roadmapping",
+      "GitHub integration"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["productivity", "project-management", "issues", "engineering"]
+    "tags": [
+      "productivity",
+      "project-management",
+      "issues",
+      "engineering"
+    ]
   },
   {
     "name": "Cline",
@@ -578,11 +921,21 @@
     "free_tier": true,
     "free_tier_details": "Free and open source (bring your own API key)",
     "best_for": "Autonomous coding tasks in VS Code",
-    "use_cases": ["Code generation", "Refactoring", "Debugging", "Feature implementation"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Code generation",
+      "Refactoring",
+      "Debugging",
+      "Feature implementation"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["ai", "coding", "vscode", "open-source", "agent"]
+    "tags": [
+      "ai",
+      "coding",
+      "vscode",
+      "open-source",
+      "agent"
+    ]
   },
   {
     "name": "Zapier",
@@ -593,11 +946,20 @@
     "free_tier": true,
     "free_tier_details": "Free: 100 tasks/month, 5 Zaps",
     "best_for": "No-code automation between apps",
-    "use_cases": ["App integrations", "Data automation", "Notifications", "Workflow automation"],
-    "affiliate_link": "https://zapier.com",
+    "use_cases": [
+      "App integrations",
+      "Data automation",
+      "Notifications",
+      "Workflow automation"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["automation", "no-code", "integration", "productivity"]
+    "tags": [
+      "automation",
+      "no-code",
+      "integration",
+      "productivity"
+    ]
   },
   {
     "name": "Snyk",
@@ -608,11 +970,20 @@
     "free_tier": true,
     "free_tier_details": "Free for open source, limited scans for private repos",
     "best_for": "Dependency and container security scanning",
-    "use_cases": ["Dependency scanning", "Container security", "Code security", "License compliance"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Dependency scanning",
+      "Container security",
+      "Code security",
+      "License compliance"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["security", "vulnerabilities", "devops", "open-source"]
+    "tags": [
+      "security",
+      "vulnerabilities",
+      "devops",
+      "open-source"
+    ]
   },
   {
     "name": "Obsidian",
@@ -623,11 +994,20 @@
     "free_tier": true,
     "free_tier_details": "Free for personal use, sync and publish are paid",
     "best_for": "Personal knowledge management and linked notes",
-    "use_cases": ["Note-taking", "Knowledge graphs", "Research", "Writing"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Note-taking",
+      "Knowledge graphs",
+      "Research",
+      "Writing"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["productivity", "notes", "markdown", "knowledge-management"]
+    "tags": [
+      "productivity",
+      "notes",
+      "markdown",
+      "knowledge-management"
+    ]
   },
   {
     "name": "DevDocs",
@@ -638,11 +1018,19 @@
     "free_tier": true,
     "free_tier_details": "Completely free and open source",
     "best_for": "Quick documentation lookup across technologies",
-    "use_cases": ["Documentation lookup", "Offline reference", "Multi-tech search"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Documentation lookup",
+      "Offline reference",
+      "Multi-tech search"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["documentation", "reference", "offline", "open-source"]
+    "tags": [
+      "documentation",
+      "reference",
+      "offline",
+      "open-source"
+    ]
   },
   {
     "name": "Regex101",
@@ -653,11 +1041,19 @@
     "free_tier": true,
     "free_tier_details": "Completely free",
     "best_for": "Testing and debugging regular expressions",
-    "use_cases": ["Regex testing", "Pattern explanation", "Regex debugging"],
-    "affiliate_link": null,
+    "use_cases": [
+      "Regex testing",
+      "Pattern explanation",
+      "Regex debugging"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["regex", "developer-tools", "debugging", "utilities"]
+    "tags": [
+      "regex",
+      "developer-tools",
+      "debugging",
+      "utilities"
+    ]
   },
   {
     "name": "create-t3-app",
@@ -668,10 +1064,19 @@
     "free_tier": true,
     "free_tier_details": "Open source and free",
     "best_for": "Full-stack Next.js apps with type safety",
-    "use_cases": ["SaaS apps", "Full-stack apps", "Rapid prototyping"],
-    "affiliate_link": null,
+    "use_cases": [
+      "SaaS apps",
+      "Full-stack apps",
+      "Rapid prototyping"
+    ],
     "stars": null,
     "last_updated": "2024-01-01",
-    "tags": ["boilerplate", "nextjs", "typescript", "trpc", "open-source"]
+    "tags": [
+      "boilerplate",
+      "nextjs",
+      "typescript",
+      "trpc",
+      "open-source"
+    ]
   }
 ]
