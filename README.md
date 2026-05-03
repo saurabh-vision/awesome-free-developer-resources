@@ -756,7 +756,7 @@ Open an issue: `[New Category] Category Name — reason why needed`
 
 This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
 
-> 💰 **Affiliate Disclosure:** This repository contains affiliate links. When you sign up through our links, we earn a commission at no extra cost to you. This helps fund the maintenance and development of this resource. See [MONETIZATION.md](MONETIZATION.md) for full details on our revenue-sharing model.
+
 
 ---
 
