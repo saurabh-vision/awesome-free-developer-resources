@@ -1,0 +1,172 @@
+{
+  "programs": [
+    {
+      "tool": "Vercel",
+      "url": "https://vercel.com",
+      "affiliate_program": "Vercel Affiliate Program",
+      "commission": "20% of referred revenue",
+      "cookie_duration": "30 days",
+      "payout_method": "PayPal, Bank Transfer",
+      "minimum_payout": "$50",
+      "notes": "High-converting for Next.js developers"
+    },
+    {
+      "tool": "Postman",
+      "url": "https://postman.com",
+      "affiliate_program": "Postman Partner Program",
+      "commission": "$50-100 per paid signup",
+      "cookie_duration": "30 days",
+      "payout_method": "PayPal",
+      "minimum_payout": "$100",
+      "notes": "Industry-standard tool, high conversion rate"
+    },
+    {
+      "tool": "AWS",
+      "url": "https://aws.amazon.com",
+      "affiliate_program": "AWS Partner Network",
+      "commission": "5% lifetime on referred usage",
+      "cookie_duration": "90 days",
+      "payout_method": "Bank Transfer",
+      "minimum_payout": "$100",
+      "notes": "Volume-based, high lifetime value"
+    },
+    {
+      "tool": "DigitalOcean",
+      "url": "https://digitalocean.com",
+      "affiliate_program": "DigitalOcean Affiliate",
+      "commission": "$25 when referral deposits $25, up to $200",
+      "cookie_duration": "90 days",
+      "payout_method": "PayPal",
+      "minimum_payout": "$25",
+      "notes": "Popular with developers, easy to promote"
+    },
+    {
+      "tool": "JetBrains",
+      "url": "https://jetbrains.com",
+      "affiliate_program": "JetBrains Affiliate",
+      "commission": "$20-100 per sale",
+      "cookie_duration": "30 days",
+      "payout_method": "PayPal, Wire Transfer",
+      "minimum_payout": "$50",
+      "notes": "Popular with Java/Kotlin/Python developers"
+    },
+    {
+      "tool": "Namecheap",
+      "url": "https://namecheap.com",
+      "affiliate_program": "Namecheap Affiliate",
+      "commission": "$10-15 per signup",
+      "cookie_duration": "30 days",
+      "payout_method": "PayPal",
+      "minimum_payout": "$50",
+      "notes": "Popular domain registrar with regular promotions"
+    },
+    {
+      "tool": "Udemy",
+      "url": "https://udemy.com",
+      "affiliate_program": "Udemy Affiliate Program",
+      "commission": "30% per course sale",
+      "cookie_duration": "7 days",
+      "payout_method": "PayPal",
+      "minimum_payout": "$50",
+      "notes": "Frequent sales mean high volume conversions"
+    },
+    {
+      "tool": "Coursera",
+      "url": "https://coursera.org",
+      "affiliate_program": "Coursera Affiliate",
+      "commission": "20-45% per subscription",
+      "cookie_duration": "30 days",
+      "payout_method": "PayPal, Bank Transfer",
+      "minimum_payout": "$50",
+      "notes": "University-backed courses, high trust"
+    },
+    {
+      "tool": "Figma",
+      "url": "https://figma.com",
+      "affiliate_program": "Figma Partner Program",
+      "commission": "Per-signup commission",
+      "cookie_duration": "30 days",
+      "payout_method": "PayPal",
+      "minimum_payout": "$50",
+      "notes": "Industry-standard design tool"
+    },
+    {
+      "tool": "Clerk",
+      "url": "https://clerk.com",
+      "affiliate_program": "Clerk Partner Program",
+      "commission": "Revenue share on referred subscriptions",
+      "cookie_duration": "30 days",
+      "payout_method": "PayPal, Stripe",
+      "minimum_payout": "$50",
+      "notes": "Growing auth platform popular with Next.js devs"
+    },
+    {
+      "tool": "Supabase",
+      "url": "https://supabase.com",
+      "affiliate_program": "Supabase Partner Program",
+      "commission": "20% recurring",
+      "cookie_duration": "30 days",
+      "payout_method": "Bank Transfer",
+      "minimum_payout": "$100",
+      "notes": "Fastest growing Firebase alternative"
+    },
+    {
+      "tool": "PlanetScale",
+      "url": "https://planetscale.com",
+      "affiliate_program": "PlanetScale Affiliate",
+      "commission": "Per-signup fee",
+      "cookie_duration": "30 days",
+      "payout_method": "PayPal",
+      "minimum_payout": "$50",
+      "notes": "Popular with MySQL developers"
+    },
+    {
+      "tool": "Railway",
+      "url": "https://railway.app",
+      "affiliate_program": "Railway Affiliate",
+      "commission": "Per-referral credit",
+      "cookie_duration": "30 days",
+      "payout_method": "PayPal",
+      "minimum_payout": "$50",
+      "notes": "Growing full-stack deployment platform"
+    },
+    {
+      "tool": "Linear",
+      "url": "https://linear.app",
+      "affiliate_program": "Linear Partner Program",
+      "commission": "Revenue share",
+      "cookie_duration": "30 days",
+      "payout_method": "PayPal",
+      "minimum_payout": "$50",
+      "notes": "Beloved by engineering teams"
+    },
+    {
+      "tool": "Zapier",
+      "url": "https://zapier.com",
+      "affiliate_program": "Zapier Affiliate",
+      "commission": "30% for 12 months",
+      "cookie_duration": "30 days",
+      "payout_method": "PayPal",
+      "minimum_payout": "$50",
+      "notes": "High conversion for non-technical users"
+    }
+  ],
+  "networks": [
+    {
+      "name": "Impact",
+      "url": "https://impact.com",
+      "tools_available": ["Canva", "Fiverr", "Shopify", "Semrush"]
+    },
+    {
+      "name": "ShareASale",
+      "url": "https://shareasale.com",
+      "tools_available": ["WP Engine", "Bluehost", "Namecheap"]
+    },
+    {
+      "name": "PartnerStack",
+      "url": "https://partnerstack.com",
+      "tools_available": ["Monday.com", "Notion", "Pipedrive", "Freshworks"]
+    }
+  ],
+  "last_updated": "2024-01-01"
+}
