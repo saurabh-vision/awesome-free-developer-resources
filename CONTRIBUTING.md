@@ -2,8 +2,6 @@
 
 Thank you for contributing! This project is **community-driven** and your contributions help developers worldwide discover the best tools.
 
-> 💰 **Affiliate Disclosure:** This repository uses affiliate links. By contributing, you agree to our [transparent monetization policy](MONETIZATION.md). Contributors who add tools with affiliate programs may receive a share of revenue. See [MONETIZATION.md](MONETIZATION.md) for details.
-
 ---
 
 ## 🎯 Ways to Contribute
